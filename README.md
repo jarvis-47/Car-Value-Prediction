@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://github.com/jarvis-47/Car-Value-Prediction/blob/main/Webpage.png?raw=true" width="350" height="250"/>
+</div>
+
 # Car Price Prediction Web Application
 Welcome to the Car Price Prediction web application project! Dive into a comprehensive guide that takes you from raw data to a fully functional web-based application. This project is not just about predicting car prices, but also an excellent opportunity to grasp diverse data science concepts and tools in a practical context.
 
