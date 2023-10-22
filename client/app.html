@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Resale Predictor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <div class="img"></div>
+    <div class="overlay">
+      <h1>CAR VALUE PREDICTOR</h1>
+      <h2>Get the best price today!</h2>
+
+      <input
+        type="text"
+        name="dist"
+        id="uiDist"
+        placeholder="Distance Travelled"
+      />
+
+      <input
+        type="text"
+        name="model_year"
+        id="uiYear"
+        placeholder="Model Year"
+      />
+
+      <select name="model" id="uiModel">
+        <option
+          value=""
+          disabled="disabled"
+          selected="selected"
+          hidden="hidden"
+          placeholder="Select Car Model"
+        >
+          Select Car Model
+        </option>
+      </select>
+
+      <select name="brand" id="uiBrand">
+        <option
+          value=""
+          disabled="disabled"
+          selected="selected"
+          hidden="hidden"
+        >
+          Select Car Brand
+        </option>
+      </select>
+
+      <select name="fuel_type" id="uiFuel">
+        <option value="">Fuel Type</option>
+      </select>
+      <br />
+
+      <button class="btn" onclick="onClickedEstimatePrice()" type="button">
+        PREDICT PRICE
+      </button>
+      <!-- Add this div right under your .overlay div -->
+      <div class="result" id="uiEstimatedPrice">
+        Predicted Price: <span id="price-value"></span>
+      </div>
+    </div>
+  </body>
+</html>
