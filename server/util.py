@@ -31,7 +31,7 @@ def predict_price(dist, model_year, fuel_type, brand, model):
     
     x = pd.DataFrame(x.reshape(1, -1), columns=__data_columns)
     
-    return float(round(__xgbmodel.predict(x)[0], 2))
+    return float(round(__xgbmodel.predict(x)[0]/100000, 2))
 
 
 def load_saved_artifacts():
