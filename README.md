@@ -3,7 +3,6 @@ Welcome to the Car Price Prediction web application project! Dive into a compreh
 
 ## Project Overview:
 **Model Building:** Using a car prices dataset from Kaggle, we employ sklearn's ensemble methods and linear regression to develop a prediction model. Along this journey, you'll experience:
-
 * Data loading and cleaning
 * Outlier detection and removal
 * Feature engineering
