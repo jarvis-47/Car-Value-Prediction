@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/jarvis-47/Car-Value-Prediction/blob/main/Webpage.png?raw=true" width="700" height="400"/>
+  <img src="https://github.com/jarvis-47/Car-Value-Prediction/blob/main/Webpage.png?raw=true" width="800" height="400"/>
 </div>
 
 # Car Price Prediction Web Application
